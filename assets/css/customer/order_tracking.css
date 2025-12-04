@@ -1,0 +1,164 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.page-content {
+    margin-left: 260px; 
+    padding: 40px;
+    color: white;
+}
+
+
+.page-content h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+
+.card {
+    background: rgba(255,255,255,0.18);
+    border-radius: 16px;
+    padding: 25px;
+    max-width: 650px;
+    margin: 20px auto;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 8px 28px rgba(0,0,0,0.3);
+    color: white;
+}
+
+
+.card h3 {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+
+.card hr {
+    border: none;
+    height: 1px;
+    background: rgba(255,255,255,0.35);
+    margin: 15px 0 20px 0;
+}
+
+
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.card ul li {
+    padding: 14px;
+    margin-bottom: 12px;
+    background: rgba(255,255,255,0.12);
+    border-radius: 12px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.25s ease-in-out;
+}
+
+
+.card ul li.active {
+    background: rgba(10,191,102,0.50);
+    border-left: 6px solid #0abf66;
+    box-shadow: 0px 4px 14px rgba(0,0,0,0.25);
+}
+
+
+.card:last-child {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.card a.btn {
+    display: inline-block;
+    padding: 14px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    background: linear-gradient(90deg, #1a73e8, #0abf66);
+    color: white;
+    box-shadow: 0px 6px 18px rgba(0,0,0,0.25);
+    transition: 0.25s ease;
+}
+
+.card a.btn:hover {
+    transform: translateY(-3px);
+}
+
+
+.card a.btn:nth-child(2) {
+    background: #1572A1;
+}
+
+
+.go-back-btn {
+    position: absolute;
+    top: 20px;
+    left: 270px;
+    padding: 10px 18px;
+    font-size: 15px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255,255,255,0.3);
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+.go-back-btn:hover {
+    background: rgba(255,255,255,0.35);
+    transform: translateY(-2px);
+}
+
+
+.topbar strong {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.status-timeline {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.status-step {
+    padding: 12px 15px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    background: #f0f0f0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.active-received {
+    background: #fff3cd; 
+}
+
+.active-preparing {
+    background: #ffe5b4; 
+}
+
+.active-ready {
+    background: #d6f5d6; 
+}
+
+.active-cancelled {
+    background: #ffcccc; 
+}
